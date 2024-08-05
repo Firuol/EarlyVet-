@@ -38,7 +38,7 @@ def train_model():
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X_train_scaled, y_train)
 
-    # Make predictions
+    # Make pdddredictions
     y_pred = model.predict(X_test_scaled)
 
     # Evaluate the model
