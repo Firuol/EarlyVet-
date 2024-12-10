@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import pickle
-
+//
 # Function to generate sample data
 def generate_sample_data(num_samples=1000):
     np.random.seed(42)
